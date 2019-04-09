@@ -25,7 +25,7 @@ const dateFormat = process.env.DATE_FORMAT || 'YYYYMMDD_HHmmss';
 
 module.exports.handler = function(event, context, cb) {
 
-  console.log(`Backup para a database '${dbName}' na S3 bucket '${bucketName}' iniciou`);
+  console.log(`Backup para a database '${dbName}' na S3 bucket '${bucketName}' iniciou...`);
   process.env['PATH'] = process.env['PATH'] + ':' + process.env['LAMBDA_TASK_ROOT'];
   let fileName = dbName + '_' + dayjs().format(dateFormat);
   let folderName = `/tmp/${fileName}/`;
