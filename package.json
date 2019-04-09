@@ -1,0 +1,24 @@
+{
+  "name": "lambda-mongocluster-s3",
+  "version": "1.1.0",
+  "description": "Backup do MongoDB cluster database with replica set via mongodump para a S3 bucket.",
+  "main": "index.js",
+  "dependencies": {
+    "dayjs": "^1.7.8",
+    "zip-a-folder": "0.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: nenhum teste especificado\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardojohnny/mongodb-dump-aws.git"
+  },
+  "author": "Laurent Lang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardojohnny/mongodb-dump-aws/issues"
+  },
+  "homepage": "https://github.com/ricardojohnny/mongodb-dump-aws#readme"
+}
